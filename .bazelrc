@@ -7,9 +7,9 @@ coverage:ci --experimental_remote_cache_compression --experimental_remote_cache_
 
 # TODO: Migrate away from managed directories (https://github.com/bazelbuild/bazel/issues/15463)
 # TODO: Re-upgrade to Bazel 6.+
-# sync --noincompatible_disable_managed_directories
-# query --noincompatible_disable_managed_directories
-# build --noincompatible_disable_managed_directories
+sync --noincompatible_disable_managed_directories
+query --noincompatible_disable_managed_directories
+build --noincompatible_disable_managed_directories
 
 # Android databinding flags
 build --experimental_android_databinding_v2
